@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node js socket.io",
+  "main": "sever.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "socket.io"
+  ],
+  "author": "Imran4862",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "os-utils": "^0.0.14",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
